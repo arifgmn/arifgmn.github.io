@@ -25,10 +25,12 @@ body {
   filter: drop-shadow(5px 5px 20px rgba(0, 0, 0, 0.2));
 }
 
-.hero {
+.hero-1,
+.hero-2 {
+  width: 100%;
   font-family: 'Raqillas', sans-serif;
-  color: #ff3535;
-  font-size: 64px;
+  color: #d30027;
+  font-size: 50px;
   text-align: center;
 }
 
@@ -44,7 +46,7 @@ body {
 .image-1,
 .image-2 {
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
